@@ -1,5 +1,5 @@
 //link to filesystem module
-var fs = require ('fs');
+var fs = require('fs');
 
 // print food
 console.log('Food:');
@@ -12,5 +12,5 @@ console.log(food);
 // drinks
 console.log('\nDrinks:');
 
-var drinks = fs.readFileSnyc('drinks.txt', 'utf8');
+var drinks = fs.readFileSync('drinks.txt', 'utf8');
 console.log(drinks);
